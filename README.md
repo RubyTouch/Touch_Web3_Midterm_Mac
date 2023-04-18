@@ -1,1 +1,1 @@
-# Touch_Web3_Midterm_Mac
+# Joe-Web-3-Template
