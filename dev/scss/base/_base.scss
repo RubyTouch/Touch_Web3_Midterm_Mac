@@ -2,4 +2,39 @@
     Base
 ============= */
 
+.large-images{
+    width:100%;
+}
 
+.logo-image{
+    width:119px;
+    height:40px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". content ."
+    ;
+}
+
+.content{
+    grid-area: content;
+}
+
+.bg-light-pink{
+    background-color:#FFB6B6;
+}
+
+.bg-dark-pink{
+    bakground-color:#FF8282;
+}
+
+.header-color{
+    background-color:#FFB6B6;
+}
+
+.white-text{
+    color:white;
+}

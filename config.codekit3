@@ -87,6 +87,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/fb.png" : {
+      "ft" : 32768,
+      "iS" : 341,
+      "oA" : 0,
+      "oAP" : "\/assets\/fb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/frog.png" : {
       "ft" : 32768,
       "iS" : 1494396,
@@ -113,11 +126,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/search button.png" : {
+    "\/assets\/ig.png" : {
       "ft" : 32768,
-      "iS" : 59848,
+      "iS" : 500,
       "oA" : 0,
-      "oAP" : "\/assets\/search button.png",
+      "oAP" : "\/assets\/ig.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -181,6 +194,32 @@
       "iS" : 1520545,
       "oA" : 0,
       "oAP" : "\/assets\/tato slippers.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/twitter.png" : {
+      "ft" : 32768,
+      "iS" : 414,
+      "oA" : 0,
+      "oAP" : "\/assets\/twitter.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/youtube 2.png" : {
+      "ft" : 32768,
+      "iS" : 377,
+      "oA" : 0,
+      "oAP" : "\/assets\/youtube 2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -266,6 +305,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/fb.png" : {
+      "ft" : 32768,
+      "iS" : 341,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/fb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/frog.png" : {
       "ft" : 32768,
       "iS" : 1494396,
@@ -292,11 +344,37 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/search button.png" : {
+    "\/deploy\/img\/ig.png" : {
       "ft" : 32768,
-      "iS" : 59848,
+      "iS" : 500,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/search button.png",
+      "oAP" : "\/deploy\/img\/ig.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/location arrow.png" : {
+      "ft" : 32768,
+      "iS" : 474,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/location arrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/phone.png" : {
+      "ft" : 32768,
+      "iS" : 307,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/phone.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -360,6 +438,32 @@
       "iS" : 1520545,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/tato slippers.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/twitter.png" : {
+      "ft" : 32768,
+      "iS" : 414,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/twitter.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/youtube.png" : {
+      "ft" : 32768,
+      "iS" : 377,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/youtube.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -556,6 +660,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -565,8 +681,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
