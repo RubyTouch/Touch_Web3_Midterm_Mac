@@ -1,0 +1,17 @@
+/* =============
+    Whats New
+============= */
+
+.whats_new{
+
+    &.container{
+
+        @include md{
+            display:grid;
+            grid-template-columns: 10% auto 10%;
+            grid-template-areas: 
+            ". content ."
+            ;
+        }
+    }
+}

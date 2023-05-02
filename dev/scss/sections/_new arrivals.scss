@@ -1,0 +1,17 @@
+/* =============
+    New Arrivals
+============= */
+
+.new_arrivals{
+
+    &.container{
+
+        @include md{
+            display:grid;
+            grid-template-columns: 10% auto 10%;
+            grid-template-areas: 
+            ". content ."
+            ;
+        }
+    }
+}
