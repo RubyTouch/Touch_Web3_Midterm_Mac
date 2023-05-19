@@ -326,9 +326,32 @@ template {
   width: 100%;
 }
 
+.small-picture {
+  width: 110px;
+  height: 110px;
+}
+
+.item-images {
+  width: 318px;
+  height: 164px;
+  object-fit: cover;
+}
+
 .logo-image {
   width: 119px;
   height: 40px;
+}
+
+.radish1 {
+  width: 320px;
+  height: 488px;
+  object-fit: cover;
+}
+
+.radish2 {
+  width: 324px;
+  height: 365px;
+  object-fit: cover;
 }
 
 .container {
@@ -357,9 +380,25 @@ template {
   color: white;
 }
 
+.light-purple {
+  background-color: #E0E0F2;
+}
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+button:hover {
+  background-color: #FF8282;
+}
+
+.headers {
+  font-size: 18px;
+}
+
 /* =============
     Buttons
 ============= */
@@ -390,6 +429,21 @@ textarea {
 /* =============
     Footer
 ============= */
+@media (min-width: 768px) {
+  footer .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "locations sign-up follow";
+  }
+}
+@media (min-width: 992px) {
+  footer .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "locations sign-up follow";
+  }
+}
+
 /* =============
     Footer
 ============= */
@@ -402,30 +456,51 @@ textarea {
 }
 
 /* =============
-    Gifts
+    Hero
 ============= */
 @media (min-width: 768px) {
-  .gifts.container {
+  .hero .pink-boxes {
     display: grid;
-    grid-template-columns: 10% auto 10%;
-    grid-template-areas: ". content .";
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "bg-dark-pink bg-light-pink";
+  }
+}
+@media (min-width: 992px) {
+  .hero .pink-boxes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "bg-dark-pink bg-light-pink";
+  }
+  .hero .headers {
+    font-size: 25px;
   }
 }
 
 /* =============
-    Hero
-============= */
-/* =============
     Item Description
 ============= */
 /* =============
-    New Arrivals
+    New Arrivals and gifts
 ============= */
 @media (min-width: 768px) {
-  .new_arrivals.container {
+  .NAG .NAG-container {
     display: grid;
-    grid-template-columns: 10% auto 10%;
-    grid-template-areas: ". content .";
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "arrivals gifts";
+  }
+  .NAG .arrivals {
+    margin: 16px 8px 16px 44px;
+  }
+  .NAG .gifts {
+    margin: 16px 44px 16px 8px;
+  }
+  .NAG .headers {
+    font-size: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .NAG .headers {
+    font-size: 29px;
   }
 }
 
@@ -433,24 +508,82 @@ textarea {
     Plushies
 ============= */
 @media (min-width: 768px) {
-  .plushies.container {
+  .plushies .plushie-container {
     display: grid;
-    grid-template-columns: 10% auto 10%;
-    grid-template-areas: ". content .";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 433px 433px 433px;
+    grid-template-areas: "boba slippers" "tayto frog" "sloth";
   }
+  .plushies .item-images {
+    width: 365px;
+    height: 188px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 992px) {
+  .plushies .plushie-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 433px 433px;
+    grid-template-areas: "boba slippers tayto" "frog sloth";
+  }
+  .plushies .item-images {
+    width: 320px;
+    height: 164px;
+    object-fit: cover;
+  }
+}
+.plushies .boba {
+  padding: 16px 16px 16px 16px;
+}
+.plushies .slippers {
+  padding: 16px 16px 16px 16px;
+}
+.plushies .tayto {
+  padding: 16px 16px 16px 16px;
+}
+.plushies .frog {
+  padding: 16px 16px 16px 16px;
+}
+.plushies .sloth {
+  padding: 16px 16px 16px 16px;
 }
 
 /* =============
     Radish
 ============= */
-/* =============
-    Sign Up
-============= */
 @media (min-width: 768px) {
-  .sign_up.container {
+  .radish .radish-pictures {
     display: grid;
-    grid-template-columns: 10% auto 10%;
-    grid-template-areas: ". content .";
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "radish1 radish2";
+  }
+  .radish .radish1 {
+    width: 393px;
+    height: 596px;
+    object-fit: cover;
+  }
+  .radish .radish2 {
+    width: 393px;
+    height: 596px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 992px) {
+  .radish .radish-pictures {
+    display: grid;
+    grid-template-columns: 536px auto;
+    grid-template-areas: "radish1 radish2";
+  }
+  .radish .radish1 {
+    width: 536px;
+    height: 625px;
+    object-fit: cover;
+  }
+  .radish .radish2 {
+    width: 460px;
+    height: 625px;
+    object-fit: cover;
   }
 }
 

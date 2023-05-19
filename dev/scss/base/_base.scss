@@ -6,10 +6,34 @@
     width:100%;
 }
 
+.small-picture{
+    width: 110px;
+    height: 110px;
+}
+
+.item-images{
+    width: 318px;
+    height: 164px;
+    object-fit: cover;
+}
+
 .logo-image{
     width:119px;
     height:40px;
 }
+
+.radish1{
+    width: 320px;
+    height: 488px;
+    object-fit: cover;
+}
+
+.radish2{
+    width: 324px;
+    height: 365px;
+    object-fit: cover;
+}
+
 
 .container{
     display:grid;
@@ -37,4 +61,8 @@
 
 .white-text{
     color:white;
+}
+
+.light-purple{
+    background-color: #E0E0F2;
 }

@@ -3,15 +3,58 @@
 ============= */
 
 .plushies{
-
-    &.container{
-
-        @include md{
-            display:grid;
-            grid-template-columns: 10% auto 10%;
-            grid-template-areas: 
-            ". content ."
-            ;
+    @include md{
+        .plushie-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 433px 433px 433px;
+            grid-template-areas:
+            "boba slippers"
+            "tayto frog"
+            "sloth";
         }
+
+        .item-images{
+            width: 365px;
+            height: 188px;
+            object-fit: cover;
+        }
+    }
+
+    @include lg{
+        .plushie-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 433px 433px;
+            grid-template-areas:
+            "boba slippers tayto"
+            "frog sloth";
+        }
+
+        .item-images{
+            width: 320px;
+            height: 164px;
+            object-fit: cover;
+        }
+    }
+
+    .boba{
+        padding: 16px 16px 16px 16px;
+    }
+
+    .slippers{
+        padding: 16px 16px 16px 16px;
+    }
+
+    .tayto{
+        padding: 16px 16px 16px 16px;
+    }
+
+    .frog{
+        padding: 16px 16px 16px 16px;
+    }
+
+    .sloth{
+        padding: 16px 16px 16px 16px;
     }
 }

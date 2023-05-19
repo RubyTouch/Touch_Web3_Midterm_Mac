@@ -1,3 +1,27 @@
 /* =============
     Hero
 ============= */
+
+.hero{
+    @include md{
+        .pink-boxes{
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-template-areas: 
+            "bg-dark-pink bg-light-pink";
+        }
+    }
+
+    @include lg{
+        .pink-boxes{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas:
+            "bg-dark-pink bg-light-pink";
+        }
+
+        .headers{
+            font-size: 25px;
+        }
+    }
+}

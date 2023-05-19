@@ -11,7 +11,7 @@
   "files" : {
     "\/assets\/boba.png" : {
       "ft" : 32768,
-      "iS" : 1114076,
+      "iS" : 1115340,
       "oA" : 0,
       "oAP" : "\/assets\/boba.png",
       "oF" : 0,
@@ -37,7 +37,7 @@
     },
     "\/assets\/caterpillar.png" : {
       "ft" : 32768,
-      "iS" : 730605,
+      "iS" : 730156,
       "oA" : 0,
       "oAP" : "\/assets\/caterpillar.png",
       "oF" : 0,
@@ -50,7 +50,7 @@
     },
     "\/assets\/daikon 1.png" : {
       "ft" : 32768,
-      "iS" : 684785,
+      "iS" : 683098,
       "oA" : 0,
       "oAP" : "\/assets\/daikon 1.png",
       "oF" : 0,
@@ -63,7 +63,7 @@
     },
     "\/assets\/daikon 2.png" : {
       "ft" : 32768,
-      "iS" : 1473876,
+      "iS" : 1466360,
       "oA" : 0,
       "oAP" : "\/assets\/daikon 2.png",
       "oF" : 0,
@@ -76,7 +76,7 @@
     },
     "\/assets\/daikon 3.png" : {
       "ft" : 32768,
-      "iS" : 1091654,
+      "iS" : 1110041,
       "oA" : 0,
       "oAP" : "\/assets\/daikon 3.png",
       "oF" : 0,
@@ -102,7 +102,7 @@
     },
     "\/assets\/frog.png" : {
       "ft" : 32768,
-      "iS" : 1494396,
+      "iS" : 1517033,
       "oA" : 0,
       "oAP" : "\/assets\/frog.png",
       "oF" : 0,
@@ -115,7 +115,7 @@
     },
     "\/assets\/hero.png" : {
       "ft" : 32768,
-      "iS" : 1202386,
+      "iS" : 1239890,
       "oA" : 0,
       "oAP" : "\/assets\/hero.png",
       "oF" : 0,
@@ -139,9 +139,35 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/location arrow.png" : {
+      "ft" : 32768,
+      "iS" : 474,
+      "oA" : 0,
+      "oAP" : "\/assets\/location arrow.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/phone.png" : {
+      "ft" : 32768,
+      "iS" : 307,
+      "oA" : 0,
+      "oAP" : "\/assets\/phone.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/shroom.png" : {
       "ft" : 32768,
-      "iS" : 1369332,
+      "iS" : 1379672,
       "oA" : 0,
       "oAP" : "\/assets\/shroom.png",
       "oF" : 0,
@@ -154,7 +180,7 @@
     },
     "\/assets\/sloth.png" : {
       "ft" : 32768,
-      "iS" : 809312,
+      "iS" : 812725,
       "oA" : 0,
       "oAP" : "\/assets\/sloth.png",
       "oF" : 0,
@@ -178,7 +204,7 @@
     },
     "\/assets\/tato light.png" : {
       "ft" : 32768,
-      "iS" : 975174,
+      "iS" : 966031,
       "oA" : 0,
       "oAP" : "\/assets\/tato light.png",
       "oF" : 0,
@@ -191,7 +217,7 @@
     },
     "\/assets\/tato slippers.png" : {
       "ft" : 32768,
-      "iS" : 1520545,
+      "iS" : 1522102,
       "oA" : 0,
       "oAP" : "\/assets\/tato slippers.png",
       "oF" : 0,
@@ -215,11 +241,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/youtube 2.png" : {
+    "\/assets\/youtube.png" : {
       "ft" : 32768,
       "iS" : 377,
       "oA" : 0,
-      "oAP" : "\/assets\/youtube 2.png",
+      "oAP" : "\/assets\/youtube.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -242,7 +268,7 @@
     },
     "\/deploy\/img\/boba.png" : {
       "ft" : 32768,
-      "iS" : 1114076,
+      "iS" : 1115340,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/boba.png",
       "oF" : 0,
@@ -253,9 +279,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/cat.jpg" : {
+      "ft" : 16384,
+      "iS" : 49422,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cat.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/caterpillar.png" : {
       "ft" : 32768,
-      "iS" : 730605,
+      "iS" : 730156,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/caterpillar.png",
       "oF" : 0,
@@ -268,7 +307,7 @@
     },
     "\/deploy\/img\/daikon 1.png" : {
       "ft" : 32768,
-      "iS" : 684785,
+      "iS" : 683098,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/daikon 1.png",
       "oF" : 0,
@@ -281,7 +320,7 @@
     },
     "\/deploy\/img\/daikon 2.png" : {
       "ft" : 32768,
-      "iS" : 1473876,
+      "iS" : 1466360,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/daikon 2.png",
       "oF" : 0,
@@ -294,7 +333,7 @@
     },
     "\/deploy\/img\/daikon 3.png" : {
       "ft" : 32768,
-      "iS" : 1091654,
+      "iS" : 1110041,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/daikon 3.png",
       "oF" : 0,
@@ -320,7 +359,7 @@
     },
     "\/deploy\/img\/frog.png" : {
       "ft" : 32768,
-      "iS" : 1494396,
+      "iS" : 1517033,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/frog.png",
       "oF" : 0,
@@ -333,7 +372,7 @@
     },
     "\/deploy\/img\/hero.png" : {
       "ft" : 32768,
-      "iS" : 1202386,
+      "iS" : 1239890,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero.png",
       "oF" : 0,
@@ -359,7 +398,7 @@
     },
     "\/deploy\/img\/location arrow.png" : {
       "ft" : 32768,
-      "iS" : 474,
+      "iS" : 335,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/location arrow.png",
       "oF" : 0,
@@ -385,7 +424,7 @@
     },
     "\/deploy\/img\/shroom.png" : {
       "ft" : 32768,
-      "iS" : 1369332,
+      "iS" : 1379672,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/shroom.png",
       "oF" : 0,
@@ -398,7 +437,7 @@
     },
     "\/deploy\/img\/sloth.png" : {
       "ft" : 32768,
-      "iS" : 809312,
+      "iS" : 812725,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/sloth.png",
       "oF" : 0,
@@ -422,7 +461,7 @@
     },
     "\/deploy\/img\/tato light.png" : {
       "ft" : 32768,
-      "iS" : 975174,
+      "iS" : 966031,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/tato light.png",
       "oF" : 0,
@@ -435,7 +474,7 @@
     },
     "\/deploy\/img\/tato slippers.png" : {
       "ft" : 32768,
-      "iS" : 1520545,
+      "iS" : 1522102,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/tato slippers.png",
       "oF" : 0,
@@ -480,17 +519,6 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/deploy\/js\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/dev\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -498,17 +526,6 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
-    },
-    "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -675,21 +692,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_gifts.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_gifts.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/sections\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -720,7 +722,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_new arrivals.scss" : {
+    "\/dev\/scss\/sections\/_new arrivals and gifts.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -729,7 +731,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_new arrivals.css",
+      "oAP" : "\/dev\/scss\/sections\/_new arrivals and gifts.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -765,21 +767,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_sign up.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_sign up.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/sections\/_whats new.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -794,18 +781,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/scss\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
