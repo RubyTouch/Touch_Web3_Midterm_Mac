@@ -6,16 +6,16 @@
     @include md{
         .plushie-container{
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 433px 433px 433px;
+            grid-template-columns: repeat;
             grid-template-areas:
-            "boba slippers"
-            "tayto frog"
-            "sloth";
+            "p1 p1 p2 p2"
+            "p3 p3 p4 p4"
+            ". p5 p5 .";
         }
 
+
         .item-images{
-            width: 365px;
+            width: 298px;
             height: 188px;
             object-fit: cover;
         }
@@ -24,11 +24,10 @@
     @include lg{
         .plushie-container{
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 433px 433px;
+            grid-template-columns: repeat;
             grid-template-areas:
-            "boba slippers tayto"
-            "frog sloth";
+            "p1 p1 p2 p2 p3 p3"
+            ". p4 p4 p5 p5 .";
         }
 
         .item-images{
@@ -39,22 +38,37 @@
     }
 
     .boba{
+        grid-area: p1;
         padding: 16px 16px 16px 16px;
+        margin: 17px 17px 17px 17px;
+        background-color: #F8F9FA;
     }
 
     .slippers{
+        grid-area: p2;
         padding: 16px 16px 16px 16px;
+        margin: 17px 17px 17px 0px;
+        background-color: #F8F9FA;
     }
 
     .tayto{
+        grid-area: p3;
         padding: 16px 16px 16px 16px;
+        margin: 0px 17px 17px 17px;
+        background-color: #F8F9FA;
     }
 
     .frog{
+        grid-area: p4;
         padding: 16px 16px 16px 16px;
+        margin: 0px 17px 17px 0px;
+        background-color: #F8F9FA;
     }
 
     .sloth{
+        grid-area: p5;
         padding: 16px 16px 16px 16px;
+        margin: 0px 0px 17px 0px;
+        background-color: #F8F9FA;
     }
 }

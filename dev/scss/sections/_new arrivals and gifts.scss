@@ -10,10 +10,35 @@
             grid-template-columns: 50% 50%;
             grid-template-areas:
             "arrivals gifts";
+
+        .new-arrivals{
+            grid-area: p1
         }
 
         .arrivals{
             margin: 16px 8px 16px 44px;
+        }
+
+        .button1{
+            grid-area: p3;
+        }
+
+        .shroom{
+            display: flex;
+            justify-content: flex-end;
+            div{
+            section{
+                a:link, a:visited{
+                    padding: 10px 12px;
+                    transition: 0.25s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
         }
 
         .gifts{
@@ -24,11 +49,9 @@
             font-size: 25px;
         } 
 
-    }
 
     @include lg{
         .headers{
             font-size: 29px;
         }
     }
-}

@@ -325,6 +325,30 @@ template {
 .large-images {
   width: 100%;
 }
+@media (min-width: 576px) {
+  .large-images {
+    height: 252px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 768px) {
+  .large-images {
+    height: 422px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 992px) {
+  .large-images {
+    height: 633px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 1200px) {
+  .large-images {
+    height: 873px;
+    object-fit: cover;
+  }
+}
 
 .small-picture {
   width: 110px;
@@ -332,26 +356,14 @@ template {
 }
 
 .item-images {
-  width: 318px;
-  height: 164px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .logo-image {
   width: 119px;
   height: 40px;
-}
-
-.radish1 {
-  width: 320px;
-  height: 488px;
-  object-fit: cover;
-}
-
-.radish2 {
-  width: 324px;
-  height: 365px;
-  object-fit: cover;
 }
 
 .container {
@@ -391,10 +403,6 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-button:hover {
-  background-color: #FF8282;
-}
-
 .headers {
   font-size: 18px;
 }
@@ -402,6 +410,26 @@ button:hover {
 /* =============
     Buttons
 ============= */
+.button1:hover {
+  background-color: #FF8282;
+}
+
+.button2:hover {
+  background-color: #fff;
+}
+
+.button1 {
+  background-color: #fff;
+  color: #FF8282;
+  padding: 8px 15px 8px 15px;
+}
+
+.button2 {
+  background-color: #FF8282;
+  color: #fff;
+  padding: 8px 15px 8px 15px;
+}
+
 /* =============
     Forms
 ============= */
@@ -488,34 +516,49 @@ textarea {
     grid-template-columns: 50% 50%;
     grid-template-areas: "arrivals gifts";
   }
-  .NAG .arrivals {
+  .NAG .NAG-container .new-arrivals {
+    grid-area: p1;
+  }
+  .NAG .NAG-container .arrivals {
     margin: 16px 8px 16px 44px;
   }
-  .NAG .gifts {
-    margin: 16px 44px 16px 8px;
+  .NAG .NAG-container .button1 {
+    grid-area: p3;
   }
-  .NAG .headers {
-    font-size: 25px;
+  .NAG .NAG-container .shroom {
+    display: flex;
+    justify-content: flex-end;
   }
-}
-@media (min-width: 992px) {
-  .NAG .headers {
-    font-size: 29px;
+  .NAG .NAG-container .shroom div section a:link, .NAG .NAG-container .shroom div section a:visited {
+    padding: 10px 12px;
+    transition: 0.25s;
   }
 }
 
+.gifts {
+  margin: 16px 44px 16px 8px;
+}
+
+.headers {
+  font-size: 25px;
+}
+
+@media (min-width: 992px) {
+  .headers {
+    font-size: 29px;
+  }
+}
 /* =============
     Plushies
 ============= */
 @media (min-width: 768px) {
   .plushies .plushie-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 433px 433px 433px;
-    grid-template-areas: "boba slippers" "tayto frog" "sloth";
+    grid-template-columns: repeat;
+    grid-template-areas: "p1 p1 p2 p2" "p3 p3 p4 p4" ". p5 p5 .";
   }
   .plushies .item-images {
-    width: 365px;
+    width: 298px;
     height: 188px;
     object-fit: cover;
   }
@@ -523,9 +566,8 @@ textarea {
 @media (min-width: 992px) {
   .plushies .plushie-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 433px 433px;
-    grid-template-areas: "boba slippers tayto" "frog sloth";
+    grid-template-columns: repeat;
+    grid-template-areas: "p1 p1 p2 p2 p3 p3" ". p4 p4 p5 p5 .";
   }
   .plushies .item-images {
     width: 320px;
@@ -534,19 +576,34 @@ textarea {
   }
 }
 .plushies .boba {
+  grid-area: p1;
   padding: 16px 16px 16px 16px;
+  margin: 17px 17px 17px 17px;
+  background-color: #F8F9FA;
 }
 .plushies .slippers {
+  grid-area: p2;
   padding: 16px 16px 16px 16px;
+  margin: 17px 17px 17px 0px;
+  background-color: #F8F9FA;
 }
 .plushies .tayto {
+  grid-area: p3;
   padding: 16px 16px 16px 16px;
+  margin: 0px 17px 17px 17px;
+  background-color: #F8F9FA;
 }
 .plushies .frog {
+  grid-area: p4;
   padding: 16px 16px 16px 16px;
+  margin: 0px 17px 17px 0px;
+  background-color: #F8F9FA;
 }
 .plushies .sloth {
+  grid-area: p5;
   padding: 16px 16px 16px 16px;
+  margin: 0px 0px 17px 0px;
+  background-color: #F8F9FA;
 }
 
 /* =============

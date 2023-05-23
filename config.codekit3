@@ -48,11 +48,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/daikon 1.png" : {
+    "\/assets\/daikon1.png" : {
       "ft" : 32768,
       "iS" : 683098,
       "oA" : 0,
-      "oAP" : "\/assets\/daikon 1.png",
+      "oAP" : "\/assets\/daikon1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -61,11 +61,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/daikon 2.png" : {
+    "\/assets\/daikon2.png" : {
       "ft" : 32768,
       "iS" : 1466360,
       "oA" : 0,
-      "oAP" : "\/assets\/daikon 2.png",
+      "oAP" : "\/assets\/daikon2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -74,11 +74,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/daikon 3.png" : {
+    "\/assets\/daikon3.png" : {
       "ft" : 32768,
       "iS" : 1110041,
       "oA" : 0,
-      "oAP" : "\/assets\/daikon 3.png",
+      "oAP" : "\/assets\/daikon3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -139,11 +139,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/location arrow.png" : {
+    "\/assets\/location-arrow.png" : {
       "ft" : 32768,
       "iS" : 474,
       "oA" : 0,
-      "oAP" : "\/assets\/location arrow.png",
+      "oAP" : "\/assets\/location-arrow.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -191,22 +191,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/smoko logo.webp" : {
+    "\/assets\/smoko-logo.webp" : {
       "ft" : 8388608,
       "iS" : 3658,
       "oA" : 0,
-      "oAP" : "\/assets\/smoko logo.webp",
+      "oAP" : "\/assets\/smoko-logo.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/assets\/tato light.png" : {
+    "\/assets\/tato-light.png" : {
       "ft" : 32768,
       "iS" : 966031,
       "oA" : 0,
-      "oAP" : "\/assets\/tato light.png",
+      "oAP" : "\/assets\/tato-light.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -215,11 +215,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/tato slippers.png" : {
+    "\/assets\/tato-slippers.png" : {
       "ft" : 32768,
       "iS" : 1522102,
       "oA" : 0,
-      "oAP" : "\/assets\/tato slippers.png",
+      "oAP" : "\/assets\/tato-slippers.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -305,11 +305,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/daikon 1.png" : {
+    "\/deploy\/img\/daikon1.png" : {
       "ft" : 32768,
       "iS" : 683098,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/daikon 1.png",
+      "oAP" : "\/deploy\/img\/daikon1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -318,11 +318,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/daikon 2.png" : {
+    "\/deploy\/img\/daikon2.png" : {
       "ft" : 32768,
       "iS" : 1466360,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/daikon 2.png",
+      "oAP" : "\/deploy\/img\/daikon2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -331,11 +331,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/daikon 3.png" : {
+    "\/deploy\/img\/daikon3.png" : {
       "ft" : 32768,
       "iS" : 1110041,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/daikon 3.png",
+      "oAP" : "\/deploy\/img\/daikon3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -396,11 +396,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/location arrow.png" : {
+    "\/deploy\/img\/location-arrow.png" : {
       "ft" : 32768,
       "iS" : 335,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/location arrow.png",
+      "oAP" : "\/deploy\/img\/location-arrow.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -448,22 +448,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/smoko logo.webp" : {
+    "\/deploy\/img\/smoko-logo.webp" : {
       "ft" : 8388608,
       "iS" : 3658,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/smoko logo.webp",
+      "oAP" : "\/deploy\/img\/smoko-logo.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/tato light.png" : {
+    "\/deploy\/img\/tato-light.png" : {
       "ft" : 32768,
       "iS" : 966031,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/tato light.png",
+      "oAP" : "\/deploy\/img\/tato-light.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -472,11 +472,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/tato slippers.png" : {
+    "\/deploy\/img\/tato-slippers.png" : {
       "ft" : 32768,
       "iS" : 1522102,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/tato slippers.png",
+      "oAP" : "\/deploy\/img\/tato-slippers.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
