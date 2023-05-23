@@ -1,0 +1,34 @@
+/* =============
+    Hero
+============= */
+
+.hero{
+    @include md{
+        .pink-boxes{
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-template-areas: 
+            "bg-dark-pink bg-light-pink";        }
+    }
+
+    @include lg{
+        .pink-boxes{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas:
+            "bg-dark-pink bg-light-pink";
+        }
+
+        .bg-dark-pink{
+            grid-template-columns: auto auto 16px;
+        }
+
+        .bg-light-pink{
+            grid-template-columns: 16px auto auto;
+        }
+
+        .headers{
+            font-size: 25px;
+        }
+    }
+}

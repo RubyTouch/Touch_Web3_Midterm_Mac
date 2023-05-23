@@ -1,0 +1,85 @@
+/* =============
+    Base
+============= */
+
+.large-images{
+    width:100%;
+    @include sm{
+        height: 252px;
+        object-fit: cover;
+    }
+
+    @include md{
+        height: 422px;
+        object-fit: cover;
+    }
+
+    @include lg{
+        height: 625px;
+        object-fit: cover;
+    }
+
+    @include xl{
+        height: 873px;
+        object-fit: cover;
+    }
+
+}
+
+.small-picture{
+    width: 113px;
+    height: 113px;
+}
+
+.item-images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-image{
+    width:40%;
+}
+
+
+.container{
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". content .";
+
+    // @include lg{
+    //     grid-template-columns: auto 1140px auto;
+    // }
+
+    // @include xl{
+    //     grid-template-columns: auto 1320px auto;
+    // }
+
+    // ^ when added this stuff it made the desktop grid stop working and stretch too far but i saw joe had it
+
+}
+
+.content{ 
+    grid-area: content;
+}
+
+.bg-light-pink{
+    background-color:#FFB6B6;
+}
+
+.bg-dark-pink{
+    background-color:#FF8282;
+}
+
+.header-color{
+    background-color:#FFB6B6;
+}
+
+.white-text{
+    color:white;
+}
+
+.light-purple{
+    background-color: #E0E0F2;
+}

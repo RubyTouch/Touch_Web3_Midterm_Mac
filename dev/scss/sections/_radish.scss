@@ -1,0 +1,80 @@
+/* =============
+    Radish
+============= */
+
+.radish{
+    .d3{
+        display: none;
+    }
+
+    @include md{
+
+        .radish-pictures{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        .radish1{
+            width: 393px;
+            height: 596px;
+            object-fit: cover;
+        }
+
+        .radish2{
+            width: 393px;
+            height: 596px;
+            object-fit: cover;
+        }
+    }
+
+    @include lg{
+        .radish-pictures{
+           display: grid;
+           grid-template-columns: 60% auto;
+        }
+
+        .radish1{
+            width: 536px;
+            height: 625px;
+            object-fit: cover;
+        }
+
+        .radish2{
+            width: 460px;
+            height: 625px;
+            object-fit: cover;
+        }
+
+    }
+
+    @include xl{
+        .radish-pictures{
+            display: grid;
+            grid-template-areas: 
+            "g1 g2"
+            "g1 g3";
+        }
+
+        .d1{
+            grid-area: g1;
+            height: 755px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .d2{
+            grid-area: g2;
+            height: 376px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .d3{
+            display: block;
+            grid-area: g3;
+            height: 376px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
