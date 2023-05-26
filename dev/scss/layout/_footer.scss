@@ -1,24 +1,73 @@
 /* =============
-    Footer
+   Footer
 ============= */
 
+
 footer{
+
+
+    &.container{
+ 
+ 
+        @include md{
+            display:grid;
+            grid-template-columns: 10% auto 10%;
+            grid-template-areas:
+            ". content ."
+            ;
+        }
+    }
+ }
+ 
+ 
+ 
+ 
+ footer{
     @include md{
         .footer-container{
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 50% auto;
+            grid-template-areas:
+            "locations sign-up"
+            "locations follow";
+        }
+    }
+   
+   
+    @include lg{
+        .footer-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             grid-template-areas:
             "locations sign-up follow";
         }
     }
-    
-    
-    @include lg{
-        .footer-container{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-areas: 
-            "locations sign-up follow";
-        }
+ }
+ 
+ 
+ .locations{
+    @include md{
+        grid-area: locations;
     }
-}
+ }
+ 
+ 
+ .sign-up{
+    @include md{
+        grid-area: sign-up;
+    }
+ }
+ 
+ 
+ .follow{
+    @include md{
+        grid-area: follow;
+        align-items: right;
+    }
+ }
+ 
+ 
+ p{
+    display: inline;
+ }
+ 

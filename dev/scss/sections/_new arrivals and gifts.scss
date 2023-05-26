@@ -1,57 +1,138 @@
 /* =============
-    New Arrivals and gifts
+   New Arrivals and gifts
 ============= */
 
 
 .NAG{
+
+    // .circlelmg{
+    //     // display: flex;
+    //     // flex-direction: row-reverse;
+    // }
+ 
+    .shroom{
+        border-radius: 50%;
+    }
+ 
+ 
+    .caterpie{
+        border-radius: 50%;
+    }
+   
+    .light-purple{
+        margin: 16px 0px 16px 0px;
+    }
+
+ .NAG-container{
+    .arrivals, .gifts{
+        .content{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+            "header image"
+            "button image"
+            ;
+
+            .headers{
+                grid-area: header;
+            }
+
+            .circlelmg{
+                grid-area: image;
+                align-self: center;
+                justify-self: end;
+            }
+
+            .button1{
+                grid-area: button;
+                width:150px;
+                height:50px;
+            }
+        }
+    }
+ }
+ 
     @include md{
         .NAG-container{
             display: grid;
             grid-template-columns: 50% 50%;
             grid-template-areas:
             "arrivals gifts";
-
-        .new-arrivals{
-            grid-area: p1
         }
-
         .arrivals{
             margin: 16px 8px 16px 44px;
+            padding: 0px 7px 10px 7px;
         }
-
-        .button1{
-            grid-area: p3;
-        }
-
         .shroom{
-            display: flex;
-            justify-content: flex-end;
-            div{
-            section{
-                a:link, a:visited{
-                    padding: 10px 12px;
-                    transition: 0.25s;
-                            }
-                        }
-                    }
-                }
-            }
+            // margin: 16px 44px 16px 8px;
+            padding: 0px 7px 0px 7px;
+            border-radius: 50%;
         }
-
-
+ 
+ 
+        .caterpie{
+            // padding: 0px 19px 40px 19px;
+            border-radius: 50%;
         }
-
+ 
+ 
         .gifts{
             margin: 16px 44px 16px 8px;
+            padding: 0px 7px 10px 7px;
         }
-
+ 
+ 
         .headers{
             font-size: 25px;
-        } 
-
-
+        }
+ 
+ 
+        }
+ 
+ 
+        }
+ 
+ 
+ 
+ 
     @include lg{
         .headers{
             font-size: 29px;
         }
+ 
+ 
+        .NAG-container{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas:
+            "arrivals gifts";
+        }
+        .arrivals{
+            margin: 16px 8px 16px 44px;
+            padding: 40px 19px 0px 19px;
+        }
+ 
+ 
+        .shroom{
+        //     // align-items: right;
+            padding: 0px 19px 0px 19px;
+        // margin: 16px 44px 16px 8px;
+        //     // margin-left: auto;
+        //     display: flex;
+        //     flex-direction: row-reverse;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+ 
+ 
+ 
+        .caterpie{
+            padding: 0px 19px 0px 19px;
+            // margin: 16px 44px 16px 8px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
     }
+ 
